@@ -1,0 +1,36 @@
+.knobContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    touch-action: none;
+}
+
+.label {
+    user-select: none;   
+}
+
+.knobOuter {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--active-color);
+    border: 3px solid var(--main-color);
+    box-shadow: 4px 4px 0px var(--main-color);
+    position: relative;
+    cursor: ns-resize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.knobIndicator {
+    width: 4px;
+    height: 20px;
+    background: var(--main-color);
+    position: absolute;
+    top: 4px;
+    transform-origin: bottom center;
+    transform: translateY(0);
+}

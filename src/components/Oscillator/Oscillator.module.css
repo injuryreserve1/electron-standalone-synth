@@ -1,0 +1,21 @@
+.Oscillator {
+    width: fit-content;
+    border: 5px solid var(--main-color);
+    box-shadow: var(--main-border-shadow);
+}
+
+.Select {
+    font: inherit;
+    border: 5px solid var(--main-color);
+    background: var(--main-color);
+    color: white;
+}
+
+.Wrapper {
+    padding: 20px;
+}
+
+.Select:hover {
+    background: var(--active-color);
+    color: black;
+}

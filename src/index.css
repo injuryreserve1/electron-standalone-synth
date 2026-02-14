@@ -1,0 +1,9 @@
+:root {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+
+    --main-color: #585858;
+    --main-border-shadow: 10px 10px 0px var(--main-color); 
+    --active-color: rgb(255, 255, 100);
+}

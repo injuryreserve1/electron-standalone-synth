@@ -1,0 +1,16 @@
+.app {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.settings {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.piano {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.label {
+  font-size: 14px;
+  width: 80px;   
+  flex-shrink: 0;  
+}
+
+.input {
+  appearance: none;
+  height: 15px;
+  background-color: var(--main-color);
+  flex-grow: 1;
+}
+
+.input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: var(--active-color);
+  border: 5px solid var(--main-color);
+  transition: 300ms;
+}
+
+.input::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  margin-top: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--active-color);
+  border: 5px solid var(--main-color);
+  transition: 300ms;
+}
