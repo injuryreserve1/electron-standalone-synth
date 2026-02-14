@@ -58,9 +58,6 @@ const Piano = () => {
               onMouseLeave={() => handleNoteUp(note)}
             >
               {note.note}
-              <span className={classes.hint}>
-                {Object.keys(KEY_MAP).find(k => NOTES[KEY_MAP[k]].note === note.note)}
-              </span>
             </div>
           );
         })}
